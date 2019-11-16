@@ -197,7 +197,7 @@
       * I/O Routines for the INPUT File...                            *
       *****************************************************************
        CUSTLFFL-CLOSE.
-           add 8 to ZERO giving APPL-RESULT.
+           add 10 to ZERO giving APPL-RESULT.
            close CUSTLFFL-FILE
            if  CUSTLFFL-STATUS = '00'
                subtract APPL-RESULT from APPL-RESULT
